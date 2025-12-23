@@ -1,0 +1,28 @@
+.rubik-wet-paint-regular {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ /*hederarka plan */
+        .hero-bg {
+            background-image: url('https://cdn1.ntv.com.tr/gorsel/5EG59cYVMEqOPx_OU_Y_xA.jpg?width=952&height=540&mode=both&scale=both');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Tüm img için boyut düzenleme */
+        .service-img,
+        .kurs-img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        /* Eğitmen İmg */
+        .trainer-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
